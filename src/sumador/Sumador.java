@@ -3,12 +3,12 @@ package sumador;
 
 public class Sumador {
     
-        int numero1;
- int numero2;
+ float numero1;
+ float numero2;
  
- int suma(){
+ void sumar(){
      
-     return( numero1 + numero2);
+            float resultado = numero1+numero2;
      
  }
     public static void main(String[] args) {
